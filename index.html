@@ -9,20 +9,26 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
+    <!-- Header Section -->
     <header class="header">
       <a href="#home" class="logo"> <span>Aashif</span> Sajah </a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
         <a href="#education">Education</a>
-        <a href="#services">services</a>
-        <a href="#testimonial">Testimonial</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
+    <!-- Home Section -->
     <section class="home" id="home">
       <div class="home-content">
         <h1>Hi, It's <span>Aashif</span></h1>
@@ -52,8 +58,128 @@
       </div>
     </section>
 
-    <!-- Education Section -->
+    <!-- About Me Section -->
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <div class="aboutMe-content">
+        <div id="spider-box">
+          <canvas id="canvas"></canvas>
+        </div>
+        <p>
+          Hi, I’m <span class="name">Aashif Sajah</span>, a dynamic and driven
+          Software Engineering undergraduate from IIT, Sri Lanka. My journey is
+          fueled by an insatiable curiosity for technology and a passion for
+          entrepreneurship. From writing my first line of code to building
+          innovative projects, I’ve always sought to blend creativity with
+          technical precision. <br /><br />
 
+          I specialize in <span>full-stack</span> development, mastering tools
+          like Java Spring Boot, Angular, and MySQL. Beyond coding, I thrive in
+          collaborative environments, leading projects and contributing to
+          meaningful solutions that impact lives. <br /><br . />
+
+          But I’m not just a developer—I’m an innovator with a vision. As the
+          founder of IframesLK, I’ve turned my entrepreneurial aspirations into
+          reality, offering unique, high-quality framed products. With plans to
+          expand into international markets, I’m committed to combining artistry
+          and business to build a globally recognized brand. <br />
+          <br />
+
+          Outside of work, I’m a passionate adventurer. Whether it’s hiking,
+          cliff jumping, or planning my next business move, I approach every
+          challenge with energy and determination.<br />
+          <br />
+
+          As I continue to grow, my mission is to bridge the gap between
+          technology and real-world impact, creating solutions that inspire and
+          drive change.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skill-container">
+        <div class="icon-wrapper">
+          <i class="bx bxl-java"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-spring-boot"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-angular"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-html5"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-css3"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-javascript"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-typescript"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-python"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-git"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-github"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-visual-studio"></i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="bx bxl-figma"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <h3>EventPulse</h3>
+          <p>
+            A full-stack ticketing web application built with Spring Boot and
+            Angular.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>OOPTutHub</h3>
+          <p>
+            An open-source platform for learning Object-Oriented Programming.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>PlaneManagement</h3>
+          <p>A CLI-based Java application for ticket and seat management.</p>
+        </div>
+        <div class="project-card">
+          <h3>Chat Application</h3>
+          <p>A desktop chat app using Java AWT with real-time communication.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
     <section class="education" id="education">
       <h2 class="heading">Education</h2>
 
@@ -114,6 +240,36 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+      <h2 class="heading">Experience</h2>
+      <p>
+        <strong>Innovate X:</strong> Volunteer Educator, taught robotics and
+        programming basics in a 7-week boot camp.<br />
+        <strong>Cutting Edge 2023:</strong> Volunteered at IIT's tech
+        exhibition.
+      </p>
+    </section>
+
+    <!-- Entrepreneurship Section -->
+    <section class="entrepreneurship" id="entrepreneurship">
+      <h2 class="heading">Entrepreneurship</h2>
+      <p>
+        Founder of IframesLK, an innovative brand for framed artistic products.
+        Currently planning new product lines and expanding into international
+        markets.
+      </p>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section class="hobbies" id="hobbies">
+      <h2 class="heading">My <span>Hobbies</span></h2>
+      <p>
+        Traveling, hiking, cliff jumping, and fitness. Currently aiming to bulk
+        up and stay active while exploring new challenges.
+      </p>
     </section>
 
     <section class="services" id="services">
